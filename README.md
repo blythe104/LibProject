@@ -1,0 +1,2 @@
+# LibProject
+self library
