@@ -6,11 +6,14 @@ import android.content.SharedPreferences;
 
 import com.xin.libproject.common.base.BaseApplication;
 
+/**
+ * SharedPreferenceUtil
+ * 存取工具类
+ */
 
 public class SharedPreferenceUtil {
 
 
-    public static final String CLEAR_CACHE = "clear_cache";//清空缓存
     public static final String AUTO_UPDATE = "change_update_time"; //自动更新时长
     public static final String NOTIFICATION_MODEL = "notification_model";
     public static final String ANIM_START = "animation_start";
