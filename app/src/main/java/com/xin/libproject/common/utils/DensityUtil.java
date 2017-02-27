@@ -11,7 +11,6 @@ import android.graphics.Paint;
 public class DensityUtil {
 
     private static float scale = Resources.getSystem().getDisplayMetrics().density;
-    private static float scale = Resources.getSystem().getDisplayMetrics().densityDpi;
 
     public static int px2dip(Context context, float pxValue) {
         return (int) (pxValue / scale + 0.5F);
