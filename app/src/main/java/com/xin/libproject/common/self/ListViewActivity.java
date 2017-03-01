@@ -18,6 +18,12 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+/**
+ * listView 优化方式
+ * viewholder
+ * convertview
+ * 多种样式布局使用getViewType方法
+ */
 public class ListViewActivity extends AppCompatActivity {
 
     @BindView(R.id.listview)
