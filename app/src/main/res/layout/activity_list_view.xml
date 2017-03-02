@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.xin.libproject.common.self.ListViewActivity">
+    tools:context="com.xin.libproject.modules.self.ListViewActivity">
 
     <ListView android:id="@+id/listview" android:layout_width="match_parent"
               android:layout_height="match_parent"></ListView>

@@ -1,4 +1,4 @@
-package com.xin.libproject.common.self;
+package com.xin.libproject.modules.self;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -29,6 +29,7 @@ public class ListViewActivity extends AppCompatActivity {
     @BindView(R.id.listview)
     public ListView listView;
     private List<ListBean> lists;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
